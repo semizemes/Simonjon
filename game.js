@@ -65,7 +65,7 @@ function checkAnswer(currentLevel) {
             }, 1000);
         }
     } else {
-        $("h1").html("GAME OVER <br> click any keyboard key for restart! <br> or wait 3 second (the game automatically restarted)");
+        $("h1").html("GAME OVER <br> click any keyboard key for restart!");
 
         new Audio("/sounds/wrong.mp3").play();
 
