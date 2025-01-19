@@ -82,8 +82,4 @@ function startOver() {
     level = 0;
     gamePattern = [];
     userClickedPattern = [];
-    
-    setTimeout(() => {
-        nextSequence();
-    }, 3000);
 }
