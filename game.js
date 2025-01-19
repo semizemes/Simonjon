@@ -34,7 +34,7 @@ function nextSequence() {                                   //bu funksiya keying
 }
 
 function playSound(name) {     //ko'p martalik ranga mos audio
-    var audio = new Audio("/sounds/" + name + ".mp3");
+    var audio = new Audio("sounds/" + name + ".mp3");
     audio.play();
 }
 
@@ -67,7 +67,7 @@ function checkAnswer(currentLevel) {
     } else {
         $("h1").html("GAME OVER <br> click any keyboard key for restart!");
 
-        new Audio("/sounds/wrong.mp3").play();
+        new Audio("sounds/wrong.mp3").play();
 
         $("body").addClass("game-over");
         setTimeout(function() {
